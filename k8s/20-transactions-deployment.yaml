@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/alcoranpaul/assignment_6_part_3-transactions:73a14d8a72892a73eb8127e092b5817b07717c0f
+          image: ghcr.io/alcoranpaul/assignment_6_part_3-transactions:af5a61f1a026d040b62913fb0c9c783e56effc47
           imagePullPolicy: IfNotPresent
           ports:
             - name: http

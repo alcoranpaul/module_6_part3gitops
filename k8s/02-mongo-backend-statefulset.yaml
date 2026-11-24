@@ -39,7 +39,7 @@ spec:
     - metadata:
         name: mongo-backend-data
       spec:
-        accessModes: [ "ReadWriteOnce" ]
+        accessModes: ["ReadWriteOnce"]
         resources:
           requests:
             storage: 1Gi
